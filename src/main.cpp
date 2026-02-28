@@ -26,4 +26,15 @@ void setup() {
   pinMode(irPin, INPUT);
   pinMode(ledPin, OUTPUT);
 }
+/**
+ * @brief Continuously checks for object detection.
+ *
+ * If IR sensor detects an object (LOW signal):
+ *  - LED turns ON
+ *  - Prints "Object Detected"
+ *
+ * If no object is detected:
+ *  - LED turns OFF
+ *  - Prints "No Object"
+ */
 
